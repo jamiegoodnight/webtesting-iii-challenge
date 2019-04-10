@@ -4,6 +4,8 @@ import renderer from "react-test-renderer";
 
 import Display from "./Display";
 
+afterEach(cleanup);
+
 describe("<Display />", () => {
   it("renders!", () => {
     render(<Display />);

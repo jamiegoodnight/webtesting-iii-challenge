@@ -4,6 +4,8 @@ import renderer from "react-test-renderer";
 
 import Controls from "./Controls";
 
+afterEach(cleanup);
+
 describe("<Controls />", () => {
   it("renders!", () => {
     render(<Controls />);
