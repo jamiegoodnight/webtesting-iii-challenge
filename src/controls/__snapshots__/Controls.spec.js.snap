@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<Controls /> matches snapshot 1`] = `
+exports[`Controls tests! matches snapshot 1`] = `
 <div
   className="controls panel"
 >
