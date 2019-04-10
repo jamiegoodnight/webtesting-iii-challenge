@@ -1,6 +1,7 @@
 import React from "react";
 import { render, fireEvent, cleanup } from "react-testing-library";
 import renderer from "react-test-renderer";
+import "jest-dom/extend-expect";
 
 import Controls from "./Controls";
 
